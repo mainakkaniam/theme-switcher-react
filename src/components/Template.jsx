@@ -4,7 +4,7 @@ import { useTheme } from '../context'
 
 const Template = ({ pagename }) => {
   
-  const { isDarkMode, toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
 
   const handleToggle = () => {
     toggleTheme();

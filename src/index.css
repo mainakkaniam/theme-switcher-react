@@ -18,6 +18,10 @@
 [data-theme="dark"]{
   --bg-color:black;
   --text-color:white;
+
+  a{
+    color:#a6ff00;
+  }
 }
 
 body{
